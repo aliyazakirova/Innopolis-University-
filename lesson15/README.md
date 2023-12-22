@@ -1,3 +1,8 @@
+Homework to lesson 15
+
+result: product cards using React Hooks: useState, useEffect, custom Hook and API request.
+
+<img width="1281" alt="image" src="https://github.com/aliyazakirova/Innopolis-University-/assets/93845260/6babfea9-37b7-46b7-bdbf-ba0fbf1e13f0">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
