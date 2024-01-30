@@ -1,0 +1,28 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px; 
+    justify-content: center; 
+    padding: 20px; 
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-basis: calc(20% - 20px); 
+}
+
+@media (max-width: 920px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 540px) {
+    .card-container {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
